@@ -1,0 +1,9 @@
+#first {
+    border: 5px solid black;
+    visibility: hidden;
+}
+
+.important {
+    border: 5px solid pink;
+    
+}
