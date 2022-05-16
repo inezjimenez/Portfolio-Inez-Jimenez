@@ -30,6 +30,31 @@ main {
     min-height: 75%
 }
 
+section{
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#about-me-content{
+    background-color: blueviolet;
+    /* float: right; */
+    width: 70%
+}
+
+aside{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* float:left; */
+    width: 30%;
+    padding-top: 50px;
+
+
+}
+
 header h1 {
     float: left;
     color: grey;
