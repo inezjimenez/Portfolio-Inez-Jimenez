@@ -1,29 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans:wght@500&display=swap');
+
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
-    display: block;
+    padding: 0;
 }
 
 body {
-    background-color: #d9dcd6;
-    display:flex;
-    flex-direction: column;
+    background-color: antiquewhite;
 }
 
-
-h1, a {
-    margin:0;
-    padding:0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
+header h1 {
+    float: left;
+    color: rgb(230, 246, 49);
+    text-align: center;
+    font-family: "Motserrat", sans-serif;
 }
 
-header{
-width: 100%;
-background-color: red;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(143, 143, 200);
 }
+
+.nav_links {
+    list-style-type: style none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color:aqua
+}
+
+a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: yellow;
+    text-decoration: none;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.logo {
+    text-indent: -999999px;
+    background: url('bootcamp/Logo.png');
+    width: 160px;
+    height: 50px;
+}
+
 
 main {
     background-color: yellow;
@@ -40,66 +86,26 @@ section{
 
 #about-me-content{
     background-color: blueviolet;
-    /* float: right; */
+    float: right;
     width: 70%
 }
 
 aside{
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
     text-align: center;
-    /* float:left; */
+    float: left;
     width: 30%;
     padding-top: 50px;
-
-
-}
-
-header h1 {
-    float: left;
-    color: grey;
-    text-align: center;
-    background-color: white;
-}
-header nav {
-    float: right;
-    background-color: pink;
 }
 
 footer {
-    background-color: black;
     /* seperate to work on top */
     margin-top:150px;
+    padding: 30px;
+    clear: both;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 a {
     color:blue;
