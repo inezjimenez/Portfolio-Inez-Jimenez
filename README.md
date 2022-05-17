@@ -3,8 +3,8 @@
 Welcome to my first website!
 
 ## Table of Content
-* [General Information] (#General-Information)
-* [Technologies] (#Technologies)
+* [General Information](#General-Information)
+* [Technologies](#Technologies)
 
 ### General Information
 Module 2 is to showcase my challenge writing my first website starting with a blank page.
