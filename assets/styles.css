@@ -71,18 +71,19 @@ section{
     flex-direction: row;
 }
 
-#about-me-content{
+.section-content{
     background-color: blueviolet;
     float: right;
     width: 70%
 }
 
 aside {
-    justify-content: left;
+    justify-content: center;
     text-align: center;
-    float: left;
+    align-items: center;
     width: 30%;
-    padding-top: 50px;
+    background-color: cornflowerblue;
+    padding: 20px 0px;
 }
 
 footer {
@@ -96,4 +97,18 @@ footer {
 
 footer a {
     color: blue;
+}
+
+@media screen and (max-width: 768px){
+header{
+    flex-direction: column;
+}
+
+  section {
+      flex-direction: column;
+  }  
+
+  .section-content{
+      width: 90%;
+  }
 }
