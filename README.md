@@ -1,18 +1,22 @@
-# My Portfolio
+# My Digital Portfolio
 
-Welcome to my first website!
+## Table of Contents
 
-## Table of Content
 * [General Information](#General-Information)
+* [Goals and Requirements](#Goals-and-Requirements)
+* [Link to Website](#Link-to-Project)
 * [Technologies](#Technologies)
+* [Funtionality](#Funtionality)
+* [Project Demo](#Project-Demo)
 
 ### General Information
-Module 2 is to showcase my challenge writing my first website starting with a blank page.
+
+### Goals and Requirments
+
+### Link to Website
 
 ### Technologies
-This project uses the following languages:
-* HTML
-* CSS
 
+### Funtionality
 
-
+### Project Demo
