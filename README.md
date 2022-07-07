@@ -17,6 +17,9 @@
 
 ### Technologies
 
+* HTML
+
+
 ### Funtionality
 
 ### Project Demo

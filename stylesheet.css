@@ -1,0 +1,66 @@
+* {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 180px 112px;
+    gap: 120px;
+    position: absolute;
+    width: 1440px;
+    height: 2844px;
+    left: 0px;
+    top: 0px;
+    background: #171717;
+    min-height: 100vh;
+}
+
+.topbar {
+    width: 1080px;
+    margin: 0 0 120px 0;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    border-color: transparent;
+}
+
+.logo {
+    width: 188px;
+    height: 29px;
+    margin: 0 663px 0 0;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: fles-start;
+    border-color: transparent;
+}
+
+.name {
+    top: 0px;
+    left: 0px;
+    color: yellow;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.name1 {
+    color: yellow;
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+
