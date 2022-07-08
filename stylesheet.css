@@ -1,5 +1,5 @@
 * {
-    background: #171717;
+    background: lightblue;
 }
 
 .portfolio-design {
@@ -67,6 +67,17 @@
 
 .name1 {
     color: yellow;
+    height: auto;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.contact-me {
+    color: darkblue;
     height: auto;
     align-self: auto;
     font-style: normal;
@@ -308,7 +319,7 @@
 .resume-text {
     top: 0px;
     left: 0px;
-    color: yellow;
+    color: darkblue;
     height: auto;
     position: absolute;
     font-size: 14px;
