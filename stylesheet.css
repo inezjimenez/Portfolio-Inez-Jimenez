@@ -1,5 +1,5 @@
 * {
-    background: lightblue;
+    background: rgb(43, 46, 47);
 }
 
 .portfolio-design {
@@ -98,17 +98,6 @@
     text-decoration: none;
 }
 
-/* .navbar {
-    display: flex;
-    position: relative;
-    flex-grow: 1;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    justify-content: flex-end;
-} */
-
 .work {
     color: white;
     height: auto;
@@ -177,7 +166,7 @@
 }
 
 .selected-works {
-    margin: 0 0 120px 0;
+    
     display: flex;
     position: relative;
     box-sizing: border-box;
@@ -188,7 +177,6 @@
 }
 
 .title {
-    margin: 0 0 64px 0;
     display: flex;
     position: relative;
     box-sizing: border-box;
@@ -201,7 +189,6 @@
 .selected-works-text {
     color: white;
     height: auto;
-    margin: 0 0 32px 00;
     font-size: 64px;
     align-self: auto;
     font-style: normal;
@@ -225,7 +212,7 @@
 }
 
 .project {
-    margin: 0 0 48px 0;
+    margin: 40px 0px 60px 0;
     display: flex;
     position: relative;
     box-sizing: border-box;
@@ -243,7 +230,7 @@
     box-sizing: border-box;
     align-items: flex-start;
     flex-shrink: 1;
-    border-color: white;
+    border-color: transparent;
     border-style: solid;
     border-width: 1px;
     flex-direction: column;
@@ -301,7 +288,375 @@
 }
 
 .github-text {
-    
+    top: 0px;
+    left: 0px;
+    color: yellow;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: 140%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.view-deployed-text {
+    top: 0px;
+    color: yellow;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: 140%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.project2 {
+    display: flex;
+    padding: 8px;
+    position: relative;
+    box-sizing: border-box;
+    align-items: fle-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.change-photo2 {
+    width: 512px;
+    height: 341px;
+    margin: 0 0 8px 0;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: transparent;
+}
+
+.image2 {
+    top: 0px;
+    left: 0px;
+    width: 512px;
+    height: 341px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+}
+
+.project2-text {
+    color: white;
+    width: 512px;
+    height: auto;
+    margin: 0 0 8px 0;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500px;
+    line-height: 132%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.project2-links {
+    width: 512px;
+    height: 28px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    justify-content: center;
+}
+
+.github-text2 {
+    top: 0px;
+    left: 0px;
+    color: yellow;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: 140%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.view-deployed-text2 {
+    top: 0px;
+    color: yellow;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: 140%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.project3 {
+    margin: 0 24px 0 0;
+    display: flex;
+    padding: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.change-photo3 {
+    width: 512px;
+    height: 341px;
+    margin: 0 0 8px 0;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: transparent
+}
+
+.image3 {
+    top: 0px;
+    left: 0px;
+    width: 512px;
+    height: 341px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+}
+
+.project3-text {
+    color: white;
+    width: 512px;
+    height: auto;
+    margin: 0 0 8px 0;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500px;
+    line-height: 132%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.project3-links {
+    width: 512px;
+    height: 28px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    justify-content: center;
+}
+
+.github-text3 {
+    top: 0px;
+    left: 0px;
+    color: yellow;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: 140%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+
+.view-deployed-text3 {
+    top: 0px;
+    color: yellow;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: 140%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.project5 {
+    display: flex;
+    padding: 8px;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    flex-direction: coulmn;
+    justify-content: center;
+}
+
+.change-photo4 {
+    width: 512px;
+    height: 341px;
+    margin: 0 0 8px 0;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: transparent;
+}
+
+.image4 {
+    top: 0px;
+    left: 0px;
+    width: 512px;
+    height: 341px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+}
+.project4-text {
+    color: white;
+    width: 512px;
+    height: auto;
+    margin: 0 0 8px 0;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500px;
+    line-height: 132%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.project4-links {
+    width: 512px;
+    height: 28px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    justify-content: center;
+}
+
+.github-text4 {
+    top: 0px;
+    left: 0px;
+    color: yellow;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: 140%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.view-deployed-text4 {
+    top: 0px;
+    color: yellow;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: 140%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.about-me {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.about-me-title {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.about-me-text-title {
+    color: white;
+    height: auto;
+    margin: 0 0 32px 0;
+    font-size: 64px;
+    align-self: auto;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500px;
+    line-height: 132%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.about-me-text {
+    color: white;
+    width: 620px;
+    height: auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 500px;
+    font-stretch: normal;
+    text-decoration: none;
 }
 
 .resume-button {
@@ -319,7 +674,7 @@
 .resume-text {
     top: 0px;
     left: 0px;
-    color: darkblue;
+    color: yellow;
     height: auto;
     position: absolute;
     font-size: 14px;
@@ -331,4 +686,50 @@
     line-height: 140%;
     font-stretch: normal;
     text-decoration: none;
+}
+
+.contact-me {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    flex-direction: coulmn;
+}
+
+.contact-me-title {
+    margin: 0 0 64px 0;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    flex-direction: coulmn;
+}
+
+.contact-me-text {
+    color: white;
+    height: auto;
+    margin: 0 0 32px 0;
+    font-size: 64px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500px;
+    line-height: 132%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.contact-links {
+    width: 1080px;
+    height: 26px;
+    display: flex; 
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: transparent;
 }
