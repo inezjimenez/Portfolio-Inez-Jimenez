@@ -201,7 +201,7 @@
 }
 
 .projects-group {
-    display: flex;
+    display: grid;
     position: relative;
     box-sizing: border-box;
     align-items: center;
