@@ -53,6 +53,7 @@ nav {
     background-color: black;
     margin: 5px;
     border-radius: 10px;
+    transition: all 0.3s ease;
 }
 
 .hero {
@@ -644,12 +645,10 @@ nav {
 }
 
 @media screen and (max-width:1116px){
-    .nav-links {
-        width: 60%;
-    }
+    
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1116px) {
     body {
         overflow-x: hidden;
     }
@@ -662,7 +661,7 @@ nav {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 40%;
+        width: 50%;
         z-index: 9999;
         color: black;
         transform: translateX(100%);
@@ -676,9 +675,8 @@ nav {
     .burger {
         display: block;
     }
-}
 
-.nav-active {
+    .nav-active {
     transform: translateX(0%);
 }
 
@@ -697,7 +695,7 @@ nav {
 }
 
 .toggle .line1 {
-    transform: rotate(-45deg translate(-5px,6px));
+    transform: rotate(-45deg) translate(-5px,6px);
 }
 
 .toggle .line2 {
@@ -705,5 +703,7 @@ nav {
 }
 
 .toggle .line3 {
-    transform: rotate(45deg translate(-5px,-6px));
+    transform: rotate(45deg) translate(-5px,-6px);
 }
+}
+
