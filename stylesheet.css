@@ -644,10 +644,6 @@ nav {
     border-color: transparent;
 }
 
-@media screen and (max-width:1116px){
-    
-}
-
 @media screen and (max-width:1116px) {
     body {
         overflow-x: hidden;
