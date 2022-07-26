@@ -68,13 +68,13 @@ nav {
 
 .hero-text {
     color: black;
-    width: 620px;
+    width: 1,2;
     height: auto;
     font-style: normal;
-    text-align: left;
-    font-weight: 500px;
-    font-stretch: normal;
+    text-align: center;
+    font-weight: 1000px;
     text-decoration: none;
+    font-family: 'Barlow';
 }
 
 /* .selected-works {
@@ -169,7 +169,7 @@ nav {
 }
 
 .project1-text {
-    color: white;
+    color: rgb(44, 44, 44);
     width: 521px;
     height: auto;
     margin: 0 0 8px 0;
@@ -198,7 +198,7 @@ nav {
 .github-text {
     top: 0px;
     left: 0px;
-    color: yellow;
+    color: rebeccapurple;
     height: auto;
     position: absolute;
     font-size: 14px;
@@ -214,7 +214,7 @@ nav {
 
 .view-deployed-text {
     top: 0px;
-    color: yellow;
+    color: rebeccapurple;
     height: auto;
     position: absolute;
     font-size: 14px;
@@ -266,7 +266,7 @@ nav {
 }
 
 .project2-text {
-    color: white;
+    color: rgb(44, 44, 44);
     width: 512px;
     height: auto;
     margin: 0 0 8px 0;
@@ -296,7 +296,7 @@ nav {
 .github-text2 {
     top: 0px;
     left: 0px;
-    color: yellow;
+    color: rebeccapurple;
     height: auto;
     position: absolute;
     font-size: 14px;
@@ -312,7 +312,7 @@ nav {
 
 .view-deployed-text2 {
     top: 0px;
-    color: yellow;
+    color: rebeccapurple;
     height: auto;
     position: absolute;
     font-size: 14px;
@@ -365,7 +365,7 @@ nav {
 }
 
 .project3-text {
-    color: white;
+    color: rgb(44, 44, 44);
     width: 512px;
     height: auto;
     margin: 0 0 8px 0;
@@ -395,7 +395,7 @@ nav {
 .github-text3 {
     top: 0px;
     left: 0px;
-    color: yellow;
+    color: rebeccapurple;
     height: auto;
     position: absolute;
     font-size: 14px;
@@ -412,7 +412,7 @@ nav {
 
 .view-deployed-text3 {
     top: 0px;
-    color: yellow;
+    color: rebeccapurple;
     height: auto;
     position: absolute;
     font-size: 14px;
@@ -464,7 +464,7 @@ nav {
     border-color: transparent;
 }
 .project4-text {
-    color: white;
+    color: rgb(44, 44, 44);
     width: 512px;
     height: auto;
     margin: 0 0 8px 0;
@@ -494,7 +494,7 @@ nav {
 .github-text4 {
     top: 0px;
     left: 0px;
-    color: yellow;
+    color: rebeccapurple;
     height: auto;
     position: absolute;
     font-size: 14px;
@@ -510,7 +510,7 @@ nav {
 
 .view-deployed-text4 {
     top: 0px;
-    color: yellow;
+    color: rebeccapurple;
     height: auto;
     position: absolute;
     font-size: 14px;
