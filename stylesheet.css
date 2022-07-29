@@ -18,6 +18,7 @@ nav {
     text-transform: uppercase;
     letter-spacing: 2px;    
     font-size: 30px;
+    text-align: center;
     color: black;                                                                                                                                                                                                 ;
 }
 
@@ -57,11 +58,11 @@ nav {
 }
 
 .hero {
-    margin: 0 0 120px 0;
+    margin: 100px 10px 120px 10px;
     display: flex;
-    position: relative;
+    position: static;
     box-sizing: border-box;
-    align-items: flex-start;
+    align-items: center;
     flex-shrink: 1;
     flex-direction: column;
 }
@@ -72,7 +73,7 @@ nav {
     height: auto;
     font-style: normal;
     text-align: center;
-    font-weight: 1000px;
+    font-size: x-large;
     text-decoration: none;
     font-family: 'Barlow';
 }
@@ -101,7 +102,7 @@ nav {
     font-size: 64px;
     align-self: auto;
     font-style: normal;
-    text-align: left;
+    text-align: center;
     font-family: 'Barlow';
     font-weight: 500px;
     line-height: 132%;
@@ -534,7 +535,7 @@ nav {
     flex-direction: column;
 }
 
-.about-me-title {
+/* .about-me-title {
     display: flex;
     position: relative;
     box-sizing: border-box;
@@ -542,24 +543,22 @@ nav {
     flex-shrink: 1;
     border-color: transparent;
     flex-direction: column;
-}
+} */
 
 .about-me-text-title {
-    color: white;
+    color: black;
     height: auto;
-    margin: 0 0 32px 0;
     font-size: 64px;
     align-self: auto;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 500px;
+    text-align: center;
+    font-family: 'Barlow';
     line-height: 132%;
     font-stretch: normal;
     text-decoration: none;
 }
 
 .about-me-text {
-    color: white;
+    color: black;
     width: 620px;
     height: auto;
     font-style: normal;
@@ -583,51 +582,28 @@ nav {
 
 .resume-text {
     top: 0px;
-    left: 0px;
-    color: yellow;
+    color: rebeccapurple;
     height: auto;
     position: absolute;
-    font-size: 14px;
+    font-size: 18px;
     align-self: auto;
     font-style: normal;
     text-align: left;
-    font-family: Inter;
+    font-family: 'Barlow';
     font-weight: 700px;
     line-height: 140%;
     font-stretch: normal;
     text-decoration: none;
 }
 
-.contact-me {
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    flex-direction: coulmn;
-}
-
-.contact-me-title {
-    margin: 0 0 64px 0;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    flex-direction: coulmn;
-}
-
 .contact-me-text {
-    color: white;
+    color: black;
     height: auto;
-    margin: 0 0 32px 0;
     font-size: 64px;
     align-self: auto;
     font-style: normal;
     text-align: left;
-    font-family: Inter;
+    font-family: 'Barlow';
     font-weight: 500px;
     line-height: 132%;
     font-stretch: normal;
