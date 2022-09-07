@@ -110,6 +110,89 @@ hero {
     border-radius: 9%;
 }
 
+.applications {
+    align-items: center;
+    display: flex;
+    flex:1;
+    justify-content: center;
+    max-height: 180px;
+}
+
+.logos {
+    height: 70px;
+    margin-left: -1.6px;
+    margin-top: 0;
+    width: 100px;
+    padding: 15px;
+}
+
+.skillsets {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    max-height: 600px;
+}
+
+.cards {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -1px;
+    min-width: 1080px;
+}
+
+.frame-animate {
+    align-items: center;
+    border-radius: 10px;
+    height: 450px;
+    justify-content: center;
+    transform: translate(0, 25px);
+    width: 330px;
+}
+
+.frame {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+    height: 330px;
+    justify-content: center;
+    margin-left: 0;
+    width: 249.9px;
+}
+
+.frame-photo{
+    height: 125px;
+    min-width: 125px;
+}
+
+.frame-title {
+    height: 142px;
+    min-width: 249.9px;
+    position: relative;
+}
+.frame1-title-text {
+    font-weight: 600;
+    left: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+    width: 250px;
+}
+
+.frame-body{
+    font-weight: 400;
+    left:0;
+    line-height: 27px;
+    position: absolute;
+    text-align: center;
+    top: 60px;
+    width: 250px;
+}
+
 @media (min-width: 768px) {
     hero {
         min-height: 700px;
