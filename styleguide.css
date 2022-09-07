@@ -1,11 +1,120 @@
-* {
+*, *::before, *::after {
     margin: 0%;
-    display: flex;
-    flex-direction: coulmn;
-    height: 100vh;
-    width: 100%
+
 }
 
 main {
     border: 10px solid black;
+    flex-direction: column;
+}
+
+.body-text {
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.h1 {
+    font-family: 'Asap';
+    font-size: 100px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.h1---mobile {
+    font-family: 'Asap';
+    font-size: 100px;
+    letter-spacing: 0%;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.h3 {
+    font-family: 'Asap';
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-family: 'Barlow';
+    font-size: 20px;
+    letter-spacing: 0%;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+/* hero */
+
+hero {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    flex: 1;
+    max-height: 720px;
+    flex-shrink: 1;
+    padding: 10%;
+    margin: auto;
+}
+
+.group1 {
+    align-items: flex-start;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    min-height: 384px;
+    left: 40%;
+}
+
+.hero-subtitle {
+    font-weight: 600;
+    height: 30px;
+    line-height: 30px;
+    white-space: nowrap;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.title {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-weight: 600;
+   height: 204px;
+   margin-top: 46px;
+   width: 464px;
+}
+
+.hero-text {
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 50px;
+    min-height:54px;
+    width: 419px;
+}
+
+.profile-pic {
+    left: 60%;
+    align-content: flex-end;
+    height: 540px;
+    display: flex;
+    width: 460px;
+    position:absolute;
+    margin: auto;
+    border-collapse: separate;
+    border-radius: 9%;
+}
+
+@media (min-width: 768px) {
+    hero {
+        min-height: 700px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
 }
