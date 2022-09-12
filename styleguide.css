@@ -1,16 +1,17 @@
 *, *::before, *::after {
     margin: 0%;
-
 }
 
 main {
     border: 10px solid black;
     flex-direction: column;
+    min-height: 6000px;
+
 }
 
 .body-text {
     font-family: 'Barlow';
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
 }
 
@@ -26,6 +27,12 @@ main {
     font-family: 'Asap';
     font-size: 100px;
     letter-spacing: 0%;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.h2 {
+    font-size: 32px;
     font-weight: 600;
     font-style: normal;
 }
@@ -131,15 +138,16 @@ hero {
     display: flex;
     flex: 1;
     justify-content: center;
-    max-height: 600px;
+    /* max-height: 600px; */
 }
 
 .cards {
     align-items: flex-start;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     margin-top: -1px;
     min-width: 1080px;
+    height: 670px;
 }
 
 .frame-animate {
@@ -149,6 +157,7 @@ hero {
     justify-content: center;
     transform: translate(0, 25px);
     width: 330px;
+    transform: translate(0, 25px);
 }
 
 .frame {
@@ -172,6 +181,7 @@ hero {
     min-width: 249.9px;
     position: relative;
 }
+
 .frame1-title-text {
     font-weight: 600;
     left: 0;
@@ -191,6 +201,356 @@ hero {
     text-align: center;
     top: 60px;
     width: 250px;
+}
+
+.frame2-animate {
+    align-items: center;
+    border-radius: 10px;
+    height: 450px;
+    justify-content: center;
+    margin-left: 45px;
+    transform: translate(0, 25px);
+    width:330px;
+}
+
+.frame2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    height: 330px;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: -0.6px;
+    width: 249.9px;
+}
+
+.frame2-photo {
+    height: 127px;
+    min-width: 130.46px;
+}
+
+.frame-2 {
+    height: 142px;
+    min-width: 249.9px;
+    position: relative;
+}
+
+.frame2-title {
+    font-weight: 600;
+    left: 0px;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+    width: 250px;
+}
+
+.frame2-body {
+    font-weight: 400;
+    left: 0;
+    line-height: 27px;
+    position: absolute;
+    text-align: center;
+    top: 60px;
+    width: 250px;
+}
+
+.frame3-animate {
+    align-items: center;
+    border-radius: 10px;
+    height: 450px;
+    justify-content: center;
+    margin-left: 45px;
+    transform: translate(0, 25px);
+    width:330px;
+}
+
+.frame3 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    height: 330px;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: -0.6px;
+    width: 249.9px;
+}
+
+.frame3-photo {
+    height: 127px;
+    min-width: 130.46px;
+}
+
+.frame-3 {
+    height: 142px;
+    min-width: 249.9px;
+    position: relative;
+}
+
+.frame3-title {
+    font-weight: 600;
+    left: 0px;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+    width: 250px;
+}
+
+.frame3-body {
+    font-weight: 400;
+    left: 0;
+    line-height: 27px;
+    position: absolute;
+    text-align: center;
+    top: 60px;
+    width: 250px;
+}
+
+.gallery {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.gallery-cards {
+    padding: 60px;
+    align-items: center;
+    display: grid;
+    grid-template-columns : repeat(3, 1fr) ;
+    grid-template-rows : repeat(2, 1fr) ;
+    grid-column-gap : 20px;
+    grid-row-gap : 20px ;
+    margin-top: -1px;
+    height:1100px;
+}
+
+.card1-photo {
+    position: relative;
+    height: 330px;
+    object-fit: cover;
+    width: 330px;
+}
+
+.project1-title {
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 24px;
+    min-height: 30px;
+}
+.project1 {
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 10px;
+    min-height: 27px;
+}
+
+.card2-photo {
+    position: relative;
+    height: 330px;
+    object-fit: cover;
+    width: 330px;
+}
+
+.project2-title {
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 24px;
+    min-height: 30px;
+}
+
+.project2 {
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 10px;
+    min-height: 27px;
+}
+
+.card3-photo {
+    position: relative;
+    height: 330px;
+    object-fit: cover;
+    width: 330px;
+}
+
+.project3-title {
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 24px;
+    min-height: 30px;
+}
+
+.project3 {
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 10px;
+    min-height: 27px;
+}
+
+.card4-photo {
+    position: relative;
+    height: 330px;
+    object-fit: cover;
+    width: 330px;
+}
+
+.project4-title {
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 24px;
+    min-height: 30px;
+}
+
+.project4 {
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 10px;
+    min-height: 27px;
+}
+
+.card5-photo {
+    position: relative;
+    height: 330px;
+    object-fit: cover;
+    width: 330px;
+}
+
+.project5-title {
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 24px;
+    min-height: 30px;
+}
+
+.project5 {
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 10px;
+    min-height: 27px;
+}
+
+.card6-photo {
+    position: relative;
+    height: 330px;
+    object-fit: cover;
+    width: 330px;
+}
+
+.project6-title {
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 24px;
+    min-height: 30px;
+}
+
+.project6 {
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 10px;
+    min-height: 27px;
+}
+
+footer {
+    align-items: flex-start;
+    flex:1;
+    max-height: 720px;
+    padding: 55.2px 94px;
+}
+
+.overlap {
+    display : grid ;
+    grid-template-columns : repeat(2, 1fr) ;
+    grid-template-rows : 1fr ;
+    grid-column-gap : 28px;
+    grid-row-gap : 0px
+}
+
+.contact-text {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 1px;
+    min-height: 305px;
+    position: relative;
+    top: 0;
+    width: 364px;
+    font-family: 'Asap';
+}
+
+.contact-body {
+    font-weight: 500;
+    line-height: 27px;
+    margin-top: 36px;
+    min-height: 135px;
+    width: 360px;
+    font-size: 20px;
+}
+
+.media-icons {
+    height: 36px;
+    margin-top: 56px;
+    width: 232px;
+}
+
+.discord {
+    display: flex;
+    cursor: pointer;
+    height: 36px;
+    left: 0;
+    line-height: 42.7px;
+    position: absolute;
+    top: 266px;
+    width: 36px;
+}
+
+.linkedin {
+    display: flex;
+    cursor: pointer;
+    height: 36px;
+    left: 49px;
+    line-height: 42.7px;
+    position: absolute;
+    top: 266px;
+    width: 36px;
+}
+
+.github {
+    display: flex;
+    cursor: pointer;
+    height: 36px;
+    left: 98px;
+    line-height: 42.7px;
+    position: absolute;
+    top: 266px;
+    width: 36px;
+}
+
+.contact-me {
+}
+
+.contact-card {
+}
+
+.name {
+    cursor: pointer;
+    align-items: flex-end;
+    background-color: grey;
+    display: flex;
+    height: 70px;
+    justify-content: flex-end;
+    min-width: 530px;
+    padding: 19px 31.2px;
+    border: 0;
+    font-weight: 400;
+    height: 27px;
+    line-height: 27px;
+    white-space: nowrap;
+    width: 465px;
 }
 
 @media (min-width: 768px) {
