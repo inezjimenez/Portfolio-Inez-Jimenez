@@ -5,8 +5,7 @@
 main {
     border: 10px solid black;
     flex-direction: column;
-    min-height: 6000px;
-
+    min-height: 3000px;
 }
 
 .body-text {
@@ -32,6 +31,7 @@ main {
 }
 
 .h2 {
+    font-family: 'Barlow';
     font-size: 32px;
     font-weight: 600;
     font-style: normal;
@@ -129,7 +129,7 @@ hero {
     height: 70px;
     margin-left: -1.6px;
     margin-top: 0;
-    width: 100px;
+    max-width: 100px;
     padding: 15px;
 }
 
@@ -456,39 +456,40 @@ hero {
 }
 
 footer {
-    align-items: flex-start;
+    align-items: center;
     flex:1;
     max-height: 720px;
     padding: 55.2px 94px;
 }
 
 .overlap {
+    align-items: stretch;
     display : grid ;
     grid-template-columns : repeat(2, 1fr) ;
-    grid-template-rows : 1fr ;
-    grid-column-gap : 28px;
-    grid-row-gap : 0px
+    grid-template-rows : repeat(1, 1fr) ;
+    grid-column-gap : 30px;
+    grid-row-gap : 0px ;
+    padding-bottom: 90px;
 }
 
 .contact-text {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
     left: 1px;
     min-height: 305px;
-    position: relative;
     top: 0;
     width: 364px;
-    font-family: 'Asap';
+}
+.contact-title {
+    font-weight: 600;
+    line-height: 42px;
+    min-height: 42px;
 }
 
 .contact-body {
-    font-weight: 500;
+    font-weight: 400;
     line-height: 27px;
     margin-top: 36px;
     min-height: 135px;
     width: 360px;
-    font-size: 20px;
 }
 
 .media-icons {
@@ -498,60 +499,88 @@ footer {
 }
 
 .discord {
-    display: flex;
     cursor: pointer;
     height: 36px;
     left: 0;
     line-height: 42.7px;
-    position: absolute;
     top: 266px;
     width: 36px;
 }
 
 .linkedin {
-    display: flex;
     cursor: pointer;
     height: 36px;
     left: 49px;
     line-height: 42.7px;
-    position: absolute;
     top: 266px;
     width: 36px;
 }
 
 .github {
-    display: flex;
     cursor: pointer;
     height: 36px;
     left: 98px;
     line-height: 42.7px;
-    position: absolute;
     top: 266px;
     width: 36px;
 }
-
-.contact-me {
+.contact-name {
+    padding-bottom: 12px;
 }
-
-.contact-card {
-}
-
 .name {
-    cursor: pointer;
-    align-items: flex-end;
-    background-color: grey;
-    display: flex;
-    height: 70px;
+    align-items:stretch;
+    background-color: gainsboro;
+    height: 35px;
     justify-content: flex-end;
-    min-width: 530px;
+    width: 400px;
     padding: 19px 31.2px;
-    border: 0;
-    font-weight: 400;
-    height: 27px;
-    line-height: 27px;
-    white-space: nowrap;
-    width: 465px;
+    position: sticky;
+    border-radius: 5px;
+    border-width: .5px;
+    cursor: text;
 }
+.name::placeholder {
+    color: black;
+    font-family: 'Barlow';
+    font-size: 20px;
+}
+
+.email {
+    align-items: flex-end;
+    background-color: gainsboro;
+    display: flex;
+    height:35px;
+    justify-content: flex-end;
+    border-radius: 5px;
+    width: 400px;
+    padding: 19px 31.2px;
+    border-width: .5px;
+}
+.email::placeholder {
+    color: black;
+    font-family: 'Barlow';
+    font-size: 20px;
+}
+.contact-message{
+    padding-top: 12px;
+}
+.message{
+    align-items: flex-end;
+    background-color: gainsboro;
+    display: flex;
+    height:80px;
+    justify-content: flex-end;
+    border-radius: 5px;
+    width: 400px;
+    padding: 19px 31.2px;
+    border-width: .5px;
+}
+.message::placeholder{
+    color: black;
+    font-family: 'Barlow';
+    font-size: 20px;
+}
+
 
 @media (min-width: 768px) {
     hero {
