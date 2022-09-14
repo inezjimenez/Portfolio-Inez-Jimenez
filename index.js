@@ -22,4 +22,5 @@ const navSlide = () => {
     });
     
 }
+ navSlide();
 
