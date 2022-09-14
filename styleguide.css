@@ -159,6 +159,7 @@ hero {
     flex:1;
     justify-content: center;
     max-height: 180px;
+    padding-bottom: 70px;
 }
 .logos {
     height: 63px;
@@ -204,8 +205,10 @@ hero {
 }
 
 .frame-photo{
-    height: 125px;
-    min-width: 125px;
+    border-radius: 9px;
+    object-fit:contain;
+    height: 330px;
+    max-width: 249px;
 }
 
 .frame-title {
@@ -260,8 +263,10 @@ hero {
 }
 
 .frame2-photo {
-    height: 127px;
-    min-width: 130.46px;
+    border-radius: 9px;
+    object-fit:cover;
+    height: 330px;
+    max-width: 249px;
 }
 
 .frame-2 {
@@ -316,8 +321,10 @@ hero {
 }
 
 .frame3-photo {
-    height: 127px;
-    min-width: 130.46px;
+    border-radius: 9px;
+    object-fit:cover;
+    height: 330px;
+    max-width: 249px;
 }
 
 .frame-3 {
@@ -627,7 +634,16 @@ footer {
     font-family: 'Barlow';
     font-size: 20px;
 }
-
+.btn{
+    padding-top: 12px;
+}
+.submit-button{
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 50px;
+    padding: 19px 20px;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 1255px) {
     body{

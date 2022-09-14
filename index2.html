@@ -49,25 +49,25 @@
             </section>
         </hero>
         <div class="applications">
-            <img class="logos" src="./assets/CSS-logo.png"/>
-            <img class="logos" src="./assets/expresslogo.png"/>
-            <img class="logos" src="./assets/InDesignlogo.png"/>
-            <img class="logos" src="./assets/Mysql-Logo-Download-Free-PNG.png"/>
-            <img class="logos" src="./assets/HTML-logo.png"/>
-            <img class="logos" src="./assets/NODE-logo.png"/>
-            <img class="logos" src="./assets/gitbash-logo.png"/>
-            <img class="logos" src="./assets/Illustratorlogo.png"/>
-            <img class="logos" src="./assets/Figma-logo.png"/>
-            <img class="logos" src="./assets/RHINO-logo.png"/>
-            <img class="logos" src="./assets/react-logo.png"/>
-            <img class="logos" src="./assets/Photoshoplogo.png"/>
-            <img class="logos" src="./assets/JS-logo.png"/>
+            <img class="logos" src="./assets/skillsets/CSS-logo.png"/>
+            <img class="logos" src="./assets/skillsets/expresslogo.png"/>
+            <img class="logos" src="./assets/skillsets/InDesignlogo.png"/>
+            <img class="logos" src="./assets/skillsets/Mysql-Logo-Download-Free-PNG.png"/>
+            <img class="logos" src="./assets/skillsets/HTML-logo.png"/>
+            <img class="logos" src="./assets/skillsets/NODE-logo.png"/>
+            <img class="logos" src="./assets/skillsets/gitbash-logo.png"/>
+            <img class="logos" src="./assets/skillsets/Illustratorlogo.png"/>
+            <img class="logos" src="./assets/skillsets/Figma-logo.png"/>
+            <img class="logos" src="./assets/skillsets/RHINO-logo.png"/>
+            <img class="logos" src="./assets/skillsets/react-logo.png"/>
+            <img class="logos" src="./assets/skillsets/Photoshoplogo.png"/>
+            <img class="logos" src="./assets/skillsets/JS-logo.png"/>
         </div>
         <div class="skillsets">
             <div class="cards">
                 <div class="frame-animate">
                     <div class="frame">
-                        <img class="frame-photo" src="./assets/Illustratorlogo.png"/>
+                        <img class="frame-photo" src="./assets/product design-pic1.jpg"/>
                     </div>
                     <div class="frame-title">
                         <div class="frame1-title-text">
@@ -83,7 +83,7 @@
                 </div>
                 <div class="frame2-animate">
                     <div class="frame2">
-                        <img class="frame2-photo" src=""/>
+                        <img class="frame2-photo" src="./assets/art direction-pic1.jpg"/>
                     </div>
                     <div class="frame-2">
                         <div class="frame2-title">
@@ -91,14 +91,14 @@
                         </div>
                         <div class="frame2-body">
                             My passion lies in creating products that brings a positive
-                            impact to people's lives, wheather it be a custom logo, a
+                            impact to people's lives, whether it be a custom logo, a
                             sketch of their house, or a custom website.
                         </div>
                     </div>
                 </div>
                 <div class="frame3-animate">
                     <div class="frame3">
-                        <img class="frame3-photo" src=""/>
+                        <img class="frame3-photo" src="./assets/product design-pic2.jpg">
                     </div>
                     <div class="frame-3">
                         <div class="frame3-title">
@@ -120,7 +120,7 @@
         <div class="gallery"> 
             <div class="gallery-cards"> 
                 <div class="gallery-card1">
-                    <img class="card1-photo" src="./assets/CSS-logo.png"/>
+                    <img class="card1-photo" src=""/>
                     <div class="project1-title subtitle">
                         Project Title
                     </div>
@@ -196,19 +196,25 @@
                         <img class="github" src="./assets/github-logo.png"/>
                         </a>
                 </div>
-                <div class="contact-me">
+                <form action="https://formsubmit.co/ijim9182@yahoo.com" 
+                method="POST" class="contact-me">
                     <div class="contact-name">
-                        <input class="name" placeholder="Name" name="name" type="text">
+                        <input class="name" placeholder="Name" name="name" type="text" required>
                     </div>
-                    <container class="contact-email">   
-                        <input class="email" name="name" placeholder="Email" type="text">
-                    </container>
+                    <div class="contact-email">   
+                        <input class="email" for="name" name="name" placeholder="Email" type="email" required>
+                    </div>
                     <div class="contact-message">
-                        <textarea class="message" name="messagehere" placeholder="Type your message here" type="text"></textarea>
+                        <textarea class="message" placeholder="Type your message here" cols="30" rows="10" required></textarea>
+                        <small class="error"></small>
                     </div>
-                </div>
+                    <div class="btn">
+                    <button class="submit-button" type="submit">SUBMIT</button>
+                    </div>
+                </form>
             </div>
         </footer>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script src="index.js"></script>
     </main>
 </body>
