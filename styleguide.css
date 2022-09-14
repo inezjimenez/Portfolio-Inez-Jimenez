@@ -7,7 +7,45 @@ main {
     flex-direction: column;
     min-height: 3000px;
 }
-
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Barlow';
+}
+.logo {
+    color: antiquewhite;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-links {
+    display:flex;
+    justify-content: space-around;
+    width:40%;
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.burger div {
+    width: 26px;
+    height:4px;
+    background-color:antiquewhite;
+    margin:5px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
 .body-text {
     font-family: 'Barlow';
     font-weight: 700;
@@ -104,7 +142,6 @@ hero {
     min-height:54px;
     width: 419px;
 }
-
 .profile-pic {
     left: 60%;
     align-content: flex-end;
@@ -116,7 +153,6 @@ hero {
     border-collapse: separate;
     border-radius: 9%;
 }
-
 .applications {
     align-items: center;
     display: flex;
@@ -124,15 +160,13 @@ hero {
     justify-content: center;
     max-height: 180px;
 }
-
 .logos {
-    height: 70px;
+    height: 63px;
     margin-left: -1.6px;
     margin-top: 0;
-    max-width: 100px;
+    max-width: 90px;
     padding: 15px;
 }
-
 .skillsets {
     align-items: center;
     display: flex;
@@ -140,7 +174,6 @@ hero {
     justify-content: center;
     /* max-height: 600px; */
 }
-
 .cards {
     align-items: flex-start;
     display: flex;
@@ -149,7 +182,6 @@ hero {
     min-width: 1080px;
     height: 670px;
 }
-
 .frame-animate {
     align-items: center;
     border-radius: 10px;
@@ -191,6 +223,7 @@ hero {
     top: -1px;
     white-space: nowrap;
     width: 250px;
+    font-family: 'Asap';
 }
 
 .frame-body{
@@ -201,6 +234,7 @@ hero {
     text-align: center;
     top: 60px;
     width: 250px;
+    font-family: 'Barlow';
 }
 
 .frame2-animate {
@@ -245,6 +279,7 @@ hero {
     top: -1px;
     white-space: nowrap;
     width: 250px;
+    font-family: 'Asap';
 }
 
 .frame2-body {
@@ -255,6 +290,7 @@ hero {
     text-align: center;
     top: 60px;
     width: 250px;
+    font-family:'Barlow';
 }
 
 .frame3-animate {
@@ -299,6 +335,7 @@ hero {
     top: -1px;
     white-space: nowrap;
     width: 250px;
+    font-family: 'Asap';
 }
 
 .frame3-body {
@@ -309,8 +346,18 @@ hero {
     text-align: center;
     top: 60px;
     width: 250px;
+    font-family: 'Barlow';
 }
-
+.gallery-title {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-family: 'Asap';
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
 .gallery {
     align-items: center;
     display: flex;
@@ -321,6 +368,7 @@ hero {
 .gallery-cards {
     padding: 60px;
     align-items: center;
+    justify-content: center;
     display: grid;
     grid-template-columns : repeat(3, 1fr) ;
     grid-template-rows : repeat(2, 1fr) ;
@@ -331,7 +379,7 @@ hero {
 }
 
 .card1-photo {
-    position: relative;
+    align-items: center;
     height: 330px;
     object-fit: cover;
     width: 330px;
@@ -351,7 +399,6 @@ hero {
 }
 
 .card2-photo {
-    position: relative;
     height: 330px;
     object-fit: cover;
     width: 330px;
@@ -459,7 +506,7 @@ footer {
     align-items: center;
     flex:1;
     max-height: 720px;
-    padding: 55.2px 94px;
+    padding: 60px 94px;
 }
 
 .overlap {
@@ -582,11 +629,56 @@ footer {
 }
 
 
-@media (min-width: 768px) {
-    hero {
-        min-height: 700px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+@media screen and (max-width: 1255px) {
+    body{
+        overflow-x: hidden;
     }
+    .nav-links{
+        position: absolute;
+        right:0px;
+        height:92vh;
+        top: 8vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        z-index: 9999;
+        color: antiquewhite;
+        transform: translateX(100%);
+        transition: transform 0.4s ease-in;
+    }
+    .nav-links li {
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+    .nav-active{
+        transform: translateX(0%);
+    }
+}
+
+/*building animation*/
+@keyframes navLinkFade {
+    from{
+        opacity:0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
 }
