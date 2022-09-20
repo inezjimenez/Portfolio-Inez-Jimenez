@@ -185,7 +185,7 @@ hero {
 }
 
 .frame-photo{
-    border-radius: 9px;
+    border-radius: 5px;
     object-fit:contain;
     height: 330px;
     max-width: 249px;
@@ -243,7 +243,7 @@ hero {
 }
 
 .frame2-photo {
-    border-radius: 9px;
+    border-radius: 5px;
     object-fit:cover;
     height: 330px;
     max-width: 249px;
@@ -301,7 +301,7 @@ hero {
 }
 
 .frame3-photo {
-    border-radius: 9px;
+    border-radius: 5px;
     object-fit:cover;
     height: 330px;
     max-width: 249px;
@@ -370,6 +370,7 @@ hero {
     height: 330px;
     object-fit: cover;
     width: 330px;
+    border-radius: 5px;
 }
 
 .project1-title {
@@ -389,6 +390,7 @@ hero {
     height: 330px;
     object-fit: cover;
     width: 330px;
+    border-radius: 5px;
 }
 
 .project2-title {
@@ -410,6 +412,7 @@ hero {
     height: 330px;
     object-fit: cover;
     width: 330px;
+    border-radius: 5px;
 }
 
 .project3-title {
@@ -431,6 +434,7 @@ hero {
     height: 330px;
     object-fit: cover;
     width: 330px;
+    border-radius: 5px;
 }
 
 .project4-title {
@@ -452,6 +456,7 @@ hero {
     height: 330px;
     object-fit: cover;
     width: 330px;
+    border-radius: 5px;
 }
 
 .project5-title {
@@ -473,6 +478,7 @@ hero {
     height: 330px;
     object-fit: cover;
     width: 330px;
+    border-radius: 5px;
 }
 
 .project6-title {
