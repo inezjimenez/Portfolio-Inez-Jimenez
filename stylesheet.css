@@ -631,10 +631,12 @@ footer {
     cursor: pointer;
 }
 
+/*media query*/
+@media screen and (min-width: 976px) and (max-width: 1300px) {
+    
+}
 
-
-/*media inquery*/
-@media screen and (min-width:360px) and (max-width: 1255px) {
+@media screen and (min-width:280px) and (max-width: 975px) {
     body {
         border: 2px solid black;
         flex-direction: column;
