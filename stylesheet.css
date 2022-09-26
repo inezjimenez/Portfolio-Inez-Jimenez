@@ -126,6 +126,7 @@ hero {
     padding: 15px;
 }
 .skillsets{
+    align-items: center;
     display: flex;
     flex: 1;
     justify-content: center;
@@ -188,7 +189,6 @@ hero {
     width: 250px;
     font-family: 'Barlow';
 }
-
 .frame2-animate {
     align-items: center;
     border-radius: 10px;
@@ -198,7 +198,6 @@ hero {
     transform: translate(0, 25px);
     width:330px;
 }
-
 .frame2 {
     align-items: center;
     display: flex;
@@ -251,7 +250,6 @@ hero {
     transform: translate(0, 25px);
     width:330px;
 }
-
 .frame3 {
     align-items: center;
     display: flex;
@@ -521,22 +519,6 @@ footer {
         padding-bottom: 70px;
         grid-template-columns : repeat(6, 1fr) ;
         grid-template-rows : repeat(2, 1fr) ;
-    }
-    .cards{
-        display: flex;
-        grid-template-columns : 1fr ;
-        grid-template-rows : repeat(3, 1fr) ;
-        margin-top: 8%;
-        flex: 1;
-    }
-    .frame-animate{
-        grid-area : 1 / 1 / 2 / 2 ;
-    }
-    .frame2-animate{
-        grid-area : 2 / 1 / 3 / 2 ;
-    }
-    .frame3-animate{
-        grid-area : 3 / 1 / 4 / 2 ;
     }
 }
 @media screen and (min-width:280px) and (max-width: 975px) {
