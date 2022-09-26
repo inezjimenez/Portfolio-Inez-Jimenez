@@ -1,10 +1,10 @@
 *, *::before, *::after {
     margin: 0%;
 }
+
 main {
     /* border: 10px solid black; */
     flex-direction: column;
-    min-height: 3000px;
 }
 nav {
     background-color: black;
@@ -267,7 +267,6 @@ hero {
 footer {
     align-items: center;
     flex:1;
-    max-height: 720px;
     padding: 60px 94px;
 }
 .overlap {
@@ -346,7 +345,6 @@ footer {
     font-family: 'Barlow';
     font-size: 20px;
 }
-
 .email {
     align-items: flex-end;
     background-color: gainsboro;
@@ -407,9 +405,8 @@ footer {
 
 }
 @media screen and (min-width:280px) and (max-width: 1021px) {
-    body {
-        min-height: 3000px;
-        width: auto;
+    body{
+        overflow-x: hidden;
     }
     main{
         overflow-x: hidden;
@@ -481,6 +478,11 @@ footer {
     }
     .frame1{
         grid-area : 1 / 1 / 2 / 2 ;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .frame-photo{
         display: block;
         margin-left: auto;
         margin-right: auto;
