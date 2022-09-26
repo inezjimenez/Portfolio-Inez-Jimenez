@@ -1,7 +1,6 @@
 *, *::before, *::after {
     margin: 0%;
 }
-
 main {
     border: 10px solid black;
     flex-direction: column;
@@ -116,7 +115,7 @@ hero {
     display: flex;
     flex:1;
     justify-content: center;
-    max-height: 180px;
+    height: 100px;
     padding-bottom: 70px;
 }
 .logos {
@@ -126,17 +125,14 @@ hero {
     max-width: 90px;
     padding: 15px;
 }
-.skillsets {
-    align-items: center;
+.skillsets{
     display: flex;
     flex: 1;
     justify-content: center;
-    /* max-height: 600px; */
 }
 .cards {
     align-items: flex-start;
     display: flex;
-    /* justify-content: flex-end; */
     margin-top: -1px;
     min-width: 1080px;
     height: 670px;
@@ -150,7 +146,6 @@ hero {
     width: 330px;
     transform: translate(0, 25px);
 }
-
 .frame {
     align-items: center;
     display: flex;
@@ -517,10 +512,33 @@ footer {
 }
 
 /*media query*/
-@media screen and (min-width: 976px) and (max-width: 1300px) {
-    
+@media screen and (min-width: 976px) and (max-width: 1246px) {
+    .applications{
+        align-self: center;
+        display: grid;
+        flex:1;
+        justify-items: center;
+        padding-bottom: 70px;
+        grid-template-columns : repeat(6, 1fr) ;
+        grid-template-rows : repeat(2, 1fr) ;
+    }
+    .cards{
+        display: flex;
+        grid-template-columns : 1fr ;
+        grid-template-rows : repeat(3, 1fr) ;
+        margin-top: 8%;
+        flex: 1;
+    }
+    .frame-animate{
+        grid-area : 1 / 1 / 2 / 2 ;
+    }
+    .frame2-animate{
+        grid-area : 2 / 1 / 3 / 2 ;
+    }
+    .frame3-animate{
+        grid-area : 3 / 1 / 4 / 2 ;
+    }
 }
-
 @media screen and (min-width:280px) and (max-width: 975px) {
     body {
         border: 2px solid black;
@@ -531,6 +549,12 @@ footer {
         overflow-x: hidden;
         display: flex;
         flex-direction: column;
+    }
+    .applications{
+        display: grid;
+        grid-template-columns : repeat(3, 1fr) ;
+        grid-template-rows : repeat(4, 1fr) ;
+        align-self: center;
     }
     .nav-links{
         position: absolute;
@@ -570,7 +594,6 @@ footer {
         "profile-pic";
         min-height: 1000px;
     }
-    
     .hero-subtitle { 
         grid-area: hero-subtitle; 
     }
