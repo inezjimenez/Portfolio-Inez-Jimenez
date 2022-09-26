@@ -2,7 +2,7 @@
     margin: 0%;
 }
 main {
-    border: 10px solid black;
+    /* border: 10px solid black; */
     flex-direction: column;
     min-height: 3000px;
 }
@@ -116,7 +116,7 @@ hero {
     flex:1;
     justify-content: center;
     height: 100px;
-    padding-bottom: 70px;
+    
 }
 .logos {
     height: 63px;
@@ -126,172 +126,62 @@ hero {
     padding: 15px;
 }
 .skillsets{
+    display : flex ;
+    grid-template-columns : repeat(3, 1fr) ;
+    grid-template-rows : 1fr ;
+    grid-column-gap: 5%;
+    flex:1;
     align-items: center;
-    display: flex;
-    flex: 1;
     justify-content: center;
+    margin: 5%;
 }
-.cards {
-    align-items: flex-start;
-    display: flex;
-    margin-top: -1px;
-    min-width: 1080px;
-    height: 670px;
-}
-.frame-animate {
-    align-items: center;
-    border-radius: 10px;
-    height: 450px;
-    justify-content: center;
-    transform: translate(0, 25px);
-    width: 330px;
-    transform: translate(0, 25px);
-}
-.frame {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 63px;
-    height: 330px;
-    justify-content: center;
-    margin-left: 0;
-    width: 249.9px;
+.frame1{
+    grid-area : 1 / 1 / 2 / 2 ;
+    place-content: center;
+    width:30%;
+    height: auto;
+    background-color: transparent;
 }
 .frame-photo{
-    border-radius: 5px;
-    object-fit:contain;
+    object-fit:cover;
     height: 330px;
-    max-width: 249px;
+    width:230px;
+    border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.frame-title {
-    height: 142px;
-    min-width: 249.9px;
-    position: relative;
-}
-.frame1-title-text {
-    font-weight: 600;
-    left: 0;
-    line-height: 42px;
-    position: absolute;
-    text-align: center;
-    top: -1px;
-    white-space: nowrap;
-    width: 250px;
+.frame-title{
+    text-shadow: 3px 3px 6px #99541cb0;
+    align-items: center;
+    display: flex;
+    flex:1;
+    justify-content: center;
     font-family: 'Asap';
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 20px;
 }
 .frame-body{
-    font-weight: 400;
-    left:0;
-    line-height: 27px;
-    position: absolute;
+    background-color: transparent;
     text-align: center;
-    top: 60px;
-    width: 250px;
     font-family: 'Barlow';
+    font-weight: 500;
+    font-size: 18px;
 }
-.frame2-animate {
-    align-items: center;
-    border-radius: 10px;
-    height: 450px;
+.frame2{
+    grid-area : 1 / 2 / 2 / 3 ;
+    align-self: center;
+    place-content: center;
+    width:30%;
+    height: auto;
+}
+.frame3{
+    grid-area : 1 / 3 / 2 / 4 ;
     justify-content: center;
-    margin-left: 45px;
-    transform: translate(0, 25px);
-    width:330px;
-}
-.frame2 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 61px;
-    height: 330px;
-    justify-content: center;
-    margin-left: 0;
-    margin-top: -0.6px;
-    width: 249.9px;
-}
-.frame2-photo {
-    border-radius: 5px;
-    object-fit:cover;
-    height: 330px;
-    max-width: 249px;
-}
-.frame-2 {
-    height: 142px;
-    min-width: 249.9px;
-    position: relative;
-}
-.frame2-title {
-    font-weight: 600;
-    left: 0px;
-    line-height: 42px;
-    position: absolute;
-    text-align: center;
-    top: -1px;
-    white-space: nowrap;
-    width: 250px;
-    font-family: 'Asap';
-}
-.frame2-body {
-    font-weight: 400;
-    left: 0;
-    line-height: 27px;
-    position: absolute;
-    text-align: center;
-    top: 60px;
-    width: 250px;
-    font-family:'Barlow';
-}
-.frame3-animate {
-    align-items: center;
-    border-radius: 10px;
-    height: 450px;
-    justify-content: center;
-    margin-left: 45px;
-    transform: translate(0, 25px);
-    width:330px;
-}
-.frame3 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 61px;
-    height: 330px;
-    justify-content: center;
-    margin-left: 0;
-    margin-top: -0.6px;
-    width: 249.9px;
-}
-.frame3-photo {
-    border-radius: 5px;
-    object-fit:cover;
-    height: 330px;
-    max-width: 249px;
-}
-.frame-3 {
-    height: 142px;
-    min-width: 249.9px;
-    position: relative;
-}
-.frame3-title {
-    font-weight: 600;
-    left: 0px;
-    line-height: 42px;
-    position: absolute;
-    text-align: center;
-    top: -1px;
-    white-space: nowrap;
-    width: 250px;
-    font-family: 'Asap';
-}
-.frame3-body {
-    font-weight: 400;
-    left: 0;
-    line-height: 27px;
-    position: absolute;
-    text-align: center;
-    top: 60px;
-    width: 250px;
-    font-family: 'Barlow';
+    place-content: center;
+    width:30%;
+    height: auto;
 }
 .gallery-title {
     align-items: center;
@@ -299,7 +189,8 @@ hero {
     flex: 1;
     justify-content: center;
     font-family: 'Asap';
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 35px;
     padding-top: 30px;
     padding-bottom: 20px;
 }
@@ -308,6 +199,7 @@ hero {
     grid-template-columns : repeat(3, 1fr) ;
     grid-template-rows : 4fr 1fr 2fr 4fr 1fr 2fr ;
     align-items: center;
+    align-self: center;
     justify-content: center;
     flex: 1;
     margin: 5%;
@@ -372,14 +264,12 @@ hero {
     grid-area: 4 / 3 / 7 / 4;
     justify-self: center;
 }
-
 footer {
     align-items: center;
     flex:1;
     max-height: 720px;
     padding: 60px 94px;
 }
-
 .overlap {
     align-items: stretch;
     display : grid ;
@@ -389,7 +279,6 @@ footer {
     grid-row-gap : 0px ;
     padding-bottom: 90px;
 }
-
 .contact-text {
     left: 1px;
     min-height: 305px;
@@ -401,7 +290,6 @@ footer {
     line-height: 42px;
     min-height: 42px;
 }
-
 .contact-body {
     font-weight: 400;
     line-height: 27px;
@@ -409,13 +297,11 @@ footer {
     min-height: 135px;
     width: 360px;
 }
-
 .media-icons {
     height: 36px;
     margin-top: 56px;
     width: 232px;
 }
-
 .discord {
     cursor: pointer;
     height: 36px;
@@ -424,7 +310,6 @@ footer {
     top: 266px;
     width: 36px;
 }
-
 .linkedin {
     cursor: pointer;
     height: 36px;
@@ -433,7 +318,6 @@ footer {
     top: 266px;
     width: 36px;
 }
-
 .github {
     cursor: pointer;
     height: 36px;
@@ -510,7 +394,7 @@ footer {
 }
 
 /*media query*/
-@media screen and (min-width: 976px) and (max-width: 1246px) {
+@media screen and (min-width: 1022px) and (max-width: 1246px) {
     .applications{
         align-self: center;
         display: grid;
@@ -520,10 +404,10 @@ footer {
         grid-template-columns : repeat(6, 1fr) ;
         grid-template-rows : repeat(2, 1fr) ;
     }
+
 }
-@media screen and (min-width:280px) and (max-width: 975px) {
+@media screen and (min-width:280px) and (max-width: 1021px) {
     body {
-        border: 2px solid black;
         min-height: 3000px;
         width: auto;
     }
