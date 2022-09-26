@@ -487,6 +487,11 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+    .frame-body{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .frame2{
         grid-area : 2 / 1 / 3 / 2 ;
         display: block;
